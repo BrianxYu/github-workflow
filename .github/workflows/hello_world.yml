@@ -16,10 +16,3 @@ jobs:
       - name: Hello World
         run: echo "Hello World"
         shell: bash
-    
-  goodbye:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Goodbye
-        run: echo "Goodbye"
-        shell: bash
