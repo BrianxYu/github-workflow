@@ -18,7 +18,7 @@ jobs:
         shell: bash
     
   goodbye:
-    runs-ons: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Goodbye
         run: echo "Goodbye"
